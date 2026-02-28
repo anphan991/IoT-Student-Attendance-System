@@ -1,136 +1,154 @@
-🎓 Smart IoT Student Attendance System
+# 🎓 Smart IoT Student Attendance System
 
->This project implements an automated student attendance system using RFID technology, the ESP32 microcontroller, and a modern Web Dashboard. It provides real-time attendance tracking, automated eligibility calculations for exams, and a streamlined interface for classroom management.
-________________________________________
-🏗️ Project Structure
+![Version](https://img.shields.io/badge/version-2.5.0-blue)
+![Status](https://img.shields.io/badge/Status-Developing-yellow)
+![Tech](https://img.shields.io/badge/Tech-ESP32%20%7C%20FastAPI%20%7C%20Hybrid%20DB-orange)
 
->The project is organized into a decoupled architecture to separate hardware logic, data processing, and user interface:
+This project implements an automated student attendance system using **RFID** technology, the **ESP32** microcontroller, and a modern **Web Dashboard**. It provides real-time attendance tracking, automated eligibility calculations for exams, and a streamlined interface for classroom management.
 
->IoT_Attendance_Project/
+---
 
->├── hardware/             
->│   ├── sketch.ino        
->│   └── diagram.json      
->│   └── rfid-rc522.chip.c
->
->│   └── rfid-rc522.chip.json
->   
->│   └── wokwi-project.txt
->
->│   └── libraries.txt
->
->├── backend/              
->│   ├── main.py           
->│   ├── Dockerfile        
->│   ├── requirements.txt  
->│   └── .dockerignore
->├── web/                  
->│   └── web.html        
->├── docs/                 
->└── README.md
-________________________________________
-🛠️ Tech Stack
+## 🏗️ Project Structure
 
-📡 IoT & Hardware
+The project is organized into a decoupled architecture to separate hardware logic, data processing, and user interface:
 
->•	Microcontroller: ESP32 (Simulated via Wokwi).
+```text
+IoT_Attendance_Project/
+├── hardware/             
+│   ├── sketch.ino        
+│   ├── diagram.json      
+│   ├── rfid-rc522.chip.c
+│   ├── rfid-rc522.chip.json      
+│   ├── wokwi-project.txt
+│   └── libraries.txt
+├── backend/              
+│   ├── main.py           
+│   ├── Dockerfile        
+│   ├── requirements.txt  
+│   └── .dockerignore
+├── web/                  
+│   └── web.html        
+├── docs/                 
+└── README.md
+```
 
->•	Sensor: RFID-RC522 for student identification.
+## 🛠️ Tech Stack
 
->•	Protocol: RESTful API over HTTP/HTTPS.
+### 📡 IoT & Hardware
 
-☁️ Cloud Data (Hybrid Database)
+* **Microcontroller:** ESP32 (Simulated via Wokwi).
+* **Sensor:** RFID-RC522 for student identification.
+* **Protocol:** RESTful API over HTTP/HTTPS.
 
->•	Firebase: Handles real-time attendance triggers.
+### ☁️ Cloud Data (Hybrid Database)
 
->•	Supabase: Manages relational data, student profiles, and class lists.
+* **Firebase:** Handles real-time attendance triggers.
+* **Supabase:** Manages relational data, student profiles, and class lists.
 
-⚙️ Backend
->•	Framework: Python (FastAPI).
+### ⚙️ Backend
 
->•	Deployment: Cloud-hosted on Hugging Face Spaces.
+* **Framework:** Python (FastAPI).
+* **Deployment:** Cloud-hosted on Hugging Face Spaces.
 
-💻 Frontend (Web Dashboard)
->•	Design: Modern Glassmorphism with Plus Jakarta Sans typography.
+### 💻 Frontend (Web Dashboard)
 
->•	Core Features: * Dark Mode: Dynamic theme switching for better user experience.
+* **Design:** Modern Glassmorphism with Plus Jakarta Sans typography.
+* **Core Features:** * **Dark Mode:** Dynamic theme switching for better user experience.
+* **Custom UI:** Replaced native alerts with smooth Toast notifications and Custom Modals.
+* **Logic:** Automatic counting of students marked as "Ineligible for Exam" based on absence data.
 
->>o	Custom UI: Replaced native alerts with smooth Toast notifications and Custom Modals.
 
->>o	Logic: Automatic counting of students marked as "Ineligible for Exam" based on absence data.
-________________________________________
-✨ Key Features
->•	Real-time Processing: Immediate attendance logging upon RFID card tap.
 
->•	Smart Statistics: Instant overview of total students and attendance warnings directly on the dashboard.
+---
 
->•	Highly Responsive UI: Smooth animations, glass-like panels, and full mobile compatibility.
+## ✨ Key Features
 
->•	Role-based Management: Secure login and class-specific data filtering.
+* **Real-time Processing:** Immediate attendance logging upon RFID card tap.
+* **Smart Statistics:** Instant overview of total students and attendance warnings directly on the dashboard.
+* **Highly Responsive UI:** Smooth animations, glass-like panels, and full mobile compatibility.
+* **Role-based Management:** Secure login and class-specific data filtering.
+* **Professional Reporting:** One-click export of attendance data to Excel format.
 
->•	Professional Reporting: One-click export of attendance data to Excel format.
-________________________________________
-🚀 Getting Started
-1. Hardware Simulation (Wokwi)
-   
->Access Wokwi and import the hardware/diagram.json file.
+---
 
->Set WiFi SSID to Wokwi-GUEST.
+## 🚀 Getting Started
 
->Update the BASE_URL in sketch.ino to point to your live API.
-   
-2. Backend Deployment
-   
->Deploy the backend/ folder to Hugging Face Spaces.
+### 1. Hardware Simulation (Wokwi)
 
->Configure environment variables for Firebase/Supabase in the Settings tab.
+1. Access Wokwi and import the `hardware/diagram.json` file.
+2. Set **WiFi SSID** to `Wokwi-GUEST`.
+3. Update the **BASE_URL** in `sketch.ino` to point to your live API.
 
->Default Endpoint: https://danganhle0623-iot.hf.space.
-   
-3. Web Dashboard
->Open web/index.html in any modern web browser.
+### 2. Backend Deployment
 
->Log in with your administrator credentials to start managing classes.
-________________________________________
-📝 Development Notes
->•	Attendance Warnings: The system automatically identifies students with "Ineligible" status based on API response strings.
+1. Deploy the `backend/` folder to **Hugging Face Spaces**.
+2. Configure environment variables for Firebase/Supabase in the **Settings** tab.
+3. **Default Endpoint:** `https://danganhle0623-iot.hf.space`
 
->•	Theme Persistence: Dark Mode settings are saved to localStorage to remain active after page reloads.
+### 3. Web Dashboard
 
->•	Cold Start: Note that the Hugging Face backend may require a few seconds to wake up after a period of inactivity.
-________________________________________
-🔗 Quick Access & Demo
+1. Open `web/index.html` (or `web/web.html`) in any modern web browser.
+2. Log in with your administrator credentials to start managing classes.
+
+---
+
+## 📝 Development Notes
+
+* **Attendance Warnings:** The system automatically identifies students with "Ineligible" status based on API response strings.
+* **Theme Persistence:** Dark Mode settings are saved to `localStorage` to remain active after page reloads.
+* **Cold Start:** Note that the Hugging Face backend may require a few seconds to wake up after a period of inactivity.
+
+---
+
+## 🔗 Quick Access & Demo
+
 You can explore the live simulation and hosted dashboard through the links below:
 
->•	📺 Video Demonstration: (URL Update Soon) — A full walkthrough of the hardware scanning process and real-time dashboard updates.
+* 📺 **Video Demonstration:** [Watch the Project Demo](https://www.google.com/search?q=%23) — *A full walkthrough of the hardware scanning process and real-time dashboard updates.*
+* 🔌 **Wokwi Online Simulation:** [Launch ESP32 Simulation](https://wokwi.com/projects/457191240564457473) — *Interact with the virtual ESP32 and RFID logic directly in your browser.*
+* 🚀 **Live Web Dashboard:** [Access IoT Attendance Portal](https://danganhle0623-iot.hf.space) — *The production-ready interface hosted on Hugging Face Spaces.(User name: admin, Password: 123456)*
 
->•	🔌 Wokwi Online Simulation: (URL Update Soon) — Interact with the virtual ESP32 and RFID logic directly in your browser.
+---
 
->•	🚀 Live Web Dashboard: (URL Update Soon) — The production-ready interface hosted on Hugging Face Spaces.
-________________________________________
-🤝 In Partnership
+## 🤝 In Partnership
 
->This project is a collaborative effort by the following individuals:
+This project is a collaborative effort by the following individuals:
 
->•	Nguyễn Đức Học (ndhoc) - Project Lead & API Developer
+* **Nguyễn Đức Học (hoc0g)** — Project Lead & API Developer
+   
+> 🌐 Contact: [GitHub: *ndhoc*](https://github.com/ndhoc) / [Email: *24162039@student.hcmute.edu.vn*](24162039@student.hcmute.edu.vn)
 
->>Contact:
 
->•	Lê Đặng Hoàng Anh (HAgudboi) - Backend & System Architect
+* **Lê Đặng Hoàng Anh (HAgudboi)** — Backend & System Architect
+> 🌐 Contact: [GitHub: *ledanghoanganh*](https://github.com/ledanghoanganh) / [Email: *leanhhoang145@gmail.com*](leanhhoang145@gmail.com)
 
->>Contact:
 
->•	Trần Công Khánh (NCK) - Project Coordinator & Flex Developer
+* **Trần Công Khánh (NCK)** — Project Coordinator & Flex Developer
+> 🌐 Contact: [GitHub: *TranKhanh20*](https://github.com/TranKhanh206) / [Email: *trancongkhanh2006.tn@gmail.com*](trancongkhanh2006.tn@gmail.com)
 
->>Contact:
 
->•	Nguyễn Bá Nam (sepNAM) - Project Manager & Documentation
+* **Nguyễn Bá Nam (sepNAM)** — Project Manager & Documentation
+> 🌐 Contact: [GitHub: *nguyenbanam272-cyber*](https://github.com/nguyenbanam272-cyber) / [Email: *nguyenbanam272@gmail.com*](nguyenbanam272@gmail.com)
 
->>Contact:
 
->•	Phan Khánh An (ap991) – Firmware  & Frontend
+* **Phan Khánh An (ap991)** — Firmware & Frontend
+> 🌐 Contact: [GitHub: *anphan991*](https://github.com/anphan991) / [Email: *an0915129080@gmail.com*](an0915129080@gmail.com)
 
->>Contact:
 
-________________________________________
-🚀 Upcoming Updates (Coming Soon)
+
+---
+
+## 🚀 Upcoming Updates (Coming Soon)
+
+* **Real-time WebSockets:** To provide instant dashboard updates without refreshing.
+* **Security Hardening:** Implementing advanced encryption for RFID data transmission.
+* **Mobile Companion App:** A dedicated application for students to check their own attendance history.
+
+---
+
+
+Developed with ❤️ 
+
+```
+
+```
