@@ -1,0 +1,32 @@
+{
+  "name": "RFID-RC522 (UART Emu)",
+  "author": "you",
+  "pins": [
+    "TX",
+    "RX",
+    "GND",
+    "VCC",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "controls": [
+    {
+      "id": "selectedCard",
+      "label": "Select Card (0 = none, 1..10 = UID index)",
+      "type": "range",
+      "min": 0,
+      "max": 10,
+      "step": 1
+    }
+  ]
+}

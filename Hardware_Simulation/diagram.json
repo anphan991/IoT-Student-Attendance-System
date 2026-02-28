@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "author": "YOU",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -32.4,
+      "left": -111.4,
+      "attrs": { "color": "limegreen" }
+    },
+    { "type": "wokwi-led", "id": "led2", "top": -32.4, "left": -73, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -74.4,
+      "left": -190.2,
+      "attrs": { "volume": "0.1" }
+    },
+    { "type": "wokwi-relay-module", "id": "relay1", "top": 249.8, "left": -96, "attrs": {} },
+    { "type": "chip-rfid-rc522", "id": "chip1", "top": 29.82, "left": 168, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 170,
+      "left": 190,
+      "attrs": { "pins": "i2c", "i2cAddress": "0x27" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:GND.1", "bz1:1", "black", [ "h0" ] ],
+    [ "esp:14", "bz1:2", "gray", [ "h0" ] ],
+    [ "esp:GND.1", "led1:C", "black", [ "h0" ] ],
+    [ "esp:GND.1", "led2:C", "black", [ "h0" ] ],
+    [ "led1:A", "esp:26", "orange", [ "v0" ] ],
+    [ "led2:A", "esp:25", "green", [ "v0" ] ],
+    [ "relay1:VCC", "esp:5V", "red", [ "h-9.6", "v-67.2" ] ],
+    [ "relay1:GND", "esp:GND.1", "black", [ "h-19.2", "v-125.2" ] ],
+    [ "relay1:IN", "esp:27", "blue", [ "h-19.2", "v-0.2", "h-9.6", "v-163.2" ] ],
+    [ "chip1:VCC", "esp:3V3", "red", [ "h-28.8", "v-76.8", "h-144" ] ],
+    [ "chip1:GND", "esp:GND.3", "black", [ "h0" ] ],
+    [ "chip1:TX", "esp:16", "green", [ "h-48", "v76.8" ] ],
+    [ "chip1:RX", "esp:17", "green", [ "h-48", "v60.0" ] ],
+    [ "lcd1:VCC", "esp:5V", "red", [ "h0" ] ],
+    [ "lcd1:GND", "esp:GND.1", "black", [ "h0" ] ],
+    [ "lcd1:SDA", "esp:21", "green", [ "h0" ] ],
+    [ "lcd1:SCL", "esp:22", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}

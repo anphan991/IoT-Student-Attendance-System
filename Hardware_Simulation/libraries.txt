@@ -1,0 +1,3 @@
+LiquidCrystal I2C
+Firebase ESP32 Client
+ArduinoJson

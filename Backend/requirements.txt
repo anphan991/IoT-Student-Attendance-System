@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+supabase
+firebase-admin
+pandas
+python-dotenv
+openpyxl
+python-jose[cryptography]
+python-multipart
+passlib
+bcrypt==4.0.1

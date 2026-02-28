@@ -1,0 +1,28 @@
+# Python bytecode (ẩn các file biên dịch tự động)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (ẩn môi trường ảo - cực kỳ quan trọng)
+.venv/
+venv/
+ENV/
+env/
+
+# Secrets & Keys (ẩn thông tin bảo mật)
+.env
+serviceAccountKey.json
+
+# IDE Settings (thiết lập của trình soạn thảo)
+.vscode/
+.idea/
+
+# OS Files (file rác của hệ điều hành)
+.DS_Store
+Thumbs.db
+
+# Logs (file nhật ký hệ thống)
+*.log
+
+# Local files
+create_admin_user.py
