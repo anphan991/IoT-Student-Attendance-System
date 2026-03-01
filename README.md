@@ -123,23 +123,23 @@ This project is a collaborative effort by the following individuals:
 
 * **Nguyễn Đức Học (hoc0g)** — Project Lead & API Developer
    
-> 🌐 Contact: [GitHub: *ndhoc*](https://github.com/ndhoc) / [Email: *24162039@student.hcmute.edu.vn*](24162039@student.hcmute.edu.vn)
+> 🌐 Contact: [GitHub: *ndhoc*](https://github.com/ndhoc) / [Email: *duchoc2006@gmail.com*](mailto:duchoc2006@gmail.com)
 
 
 * **Lê Đặng Hoàng Anh (HAgudboi)** — Backend & System Architect
-> 🌐 Contact: [GitHub: *ledanghoanganh*](https://github.com/ledanghoanganh) / [Email: *leanhhoang145@gmail.com*](leanhhoang145@gmail.com)
+> 🌐 Contact: [GitHub: *ledanghoanganh*](https://github.com/ledanghoanganh) / [Email: *leanhhoang145@gmail.com*](mailto:leanhhoang145@gmail.com)
 
 
 * **Trần Công Khánh (NCK)** — Project Coordinator & Flex Developer
-> 🌐 Contact: [GitHub: *TranKhanh20*](https://github.com/TranKhanh206) / [Email: *trancongkhanh2006.tn@gmail.com*](trancongkhanh2006.tn@gmail.com)
+> 🌐 Contact: [GitHub: *TranKhanh20*](https://github.com/TranKhanh206) / [Email: *trancongkhanh2006.tn@gmail.com*](mailto:trancongkhanh2006.tn@gmail.com)
 
 
 * **Nguyễn Bá Nam (sepNAM)** — Project Manager & Documentation
-> 🌐 Contact: [GitHub: *nguyenbanam272-cyber*](https://github.com/nguyenbanam272-cyber) / [Email: *nguyenbanam272@gmail.com*](nguyenbanam272@gmail.com)
+> 🌐 Contact: [GitHub: *nguyenbanam272-cyber*](https://github.com/nguyenbanam272-cyber) / [Email: *nguyenbanam272@gmail.com*](mailto:nguyenbanam272@gmail.com)
 
 
 * **Phan Khánh An (ap991)** — Firmware & Frontend
-> 🌐 Contact: [GitHub: *anphan991*](https://github.com/anphan991) / [Email: *an0915129080@gmail.com*](an0915129080@gmail.com)
+> 🌐 Contact: [GitHub: *anphan991*](https://github.com/anphan991) / [Email: *an0915129080@gmail.com*](mailto:an0915129080@gmail.com)
 
 
 
@@ -155,7 +155,3 @@ This project is a collaborative effort by the following individuals:
 
 
 Developed with ❤️ 
-
-
-
-
