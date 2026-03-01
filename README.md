@@ -97,6 +97,13 @@ IoT_Attendance_Project/
 * **Attendance Warnings:** The system automatically identifies students with "Ineligible" status based on API response strings.
 * **Theme Persistence:** Dark Mode settings are saved to `localStorage` to remain active after page reloads.
 * **Cold Start:** Note that the Hugging Face backend may require a few seconds to wake up after a period of inactivity.
+* **Simulation Availability (Wokwi):** To ensure data accuracy and system stability, the student list retrieval on the Wokwi demo is only active during the following school shifts:
+
+* **Morning Shift:** 07:30 AM – 11:00 AM.
+
+* **Afternoon Shift:** 12:45 PM – 05:00 PM.
+
+* **Note:** Outside of these windows, the student list will be unavailable or show as empty.
 
 ---
 
@@ -105,8 +112,8 @@ IoT_Attendance_Project/
 You can explore the live simulation and hosted dashboard through the links below:
 
 * 📺 **Video Demonstration:** [Watch the Project Demo](https://www.google.com/search?q=%23) — *A full walkthrough of the hardware scanning process and real-time dashboard updates.*
-* 🔌 **Wokwi Online Simulation:** [Launch ESP32 Simulation](https://wokwi.com/projects/457191240564457473) — *Interact with the virtual ESP32 and RFID logic directly in your browser.*
-* 🚀 **Live Web Dashboard:** [Access IoT Attendance Portal](https://danganhle0623-iot.hf.space) — *The production-ready interface hosted on Hugging Face Spaces.(User name: admin, Password: 123456)*
+* 🔌 **Wokwi Online Simulation:** [Launch ESP32 Simulation](https://wokwi.com/projects/457191240564457473) — *Interact with the virtual ESP32 and RFID logic directly in your browser | The demo only fetches the student list during active hours (07:30-11:00 and 12:45-17:00).*
+* 🚀 **Live Web Dashboard:** [Access IoT Attendance Portal](https://danganhle0623-iot.hf.space) — *The production-ready interface hosted on Hugging Face Spaces.(User name: admin, Password: 123456).*
 
 ---
 
