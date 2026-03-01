@@ -123,7 +123,7 @@ This project is a collaborative effort by the following individuals:
 
 * **Nguyễn Đức Học (hoc0g)** — Project Lead & API Developer
    
-> 🌐 Contact: [GitHub: *ndhoc*](https://github.com/ndhoc) / [Email: *24162039@student.hcmute.edu.vn*](24162039@student.hcmute.edu.vn)
+> 🌐 Contact: [GitHub: *ndhoc*](https://github.com/ndhoc) / [Email: *duchoc2006@gmail.com*](mailto:duchoc2006@gmail.com)
 
 
 * **Lê Đặng Hoàng Anh (HAgudboi)** — Backend & System Architect
