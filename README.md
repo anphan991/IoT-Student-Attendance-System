@@ -110,7 +110,7 @@ You can explore the live simulation and hosted dashboard through the links below
 
 ---
 
-## 🤝 In Partnership
+## 🤝 Project Contributors
 
 This project is a collaborative effort by the following individuals:
 
@@ -139,7 +139,7 @@ This project is a collaborative effort by the following individuals:
 ---
 
 ## 🚀 Upcoming Updates (Coming Soon)
-
+* **Update Docs**
 * **Real-time WebSockets:** To provide instant dashboard updates without refreshing.
 * **Security Hardening:** Implementing advanced encryption for RFID data transmission.
 * **Mobile Companion App:** A dedicated application for students to check their own attendance history.
@@ -149,6 +149,6 @@ This project is a collaborative effort by the following individuals:
 
 Developed with ❤️ 
 
-```
 
-```
+
+
