@@ -112,7 +112,7 @@ IoT_Attendance_Project/
 You can explore the live simulation and hosted dashboard through the links below:
 
 * 📺 **Video Demonstration:** [Watch the Project Demo](https://www.google.com/search?q=%23) — *A full walkthrough of the hardware scanning process and real-time dashboard updates.*
-* 🔌 **Wokwi Online Simulation:** [Launch ESP32 Simulation](https://wokwi.com/projects/457191240564457473) — *Interact with the virtual ESP32 and RFID logic directly in your browser | The demo only fetches the student list during active hours (07:30-11:00 and 12:45-17:00).*
+* 🔌 **Wokwi Online Simulation:** [Launch ESP32 Simulation](https://wokwi.com/projects/454856473504871425) — *Interact with the virtual ESP32 and RFID logic directly in your browser | The demo only fetches the student list during active hours (07:30-11:00 and 12:45-17:00).*
 * 🚀 **Live Web Dashboard:** [Access IoT Attendance Portal](https://danganhle0623-iot.hf.space) — *The production-ready interface hosted on Hugging Face Spaces.(User name: admin, Password: 123456).*
 
 ---
