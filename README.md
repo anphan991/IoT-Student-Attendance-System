@@ -131,7 +131,7 @@ This project is a collaborative effort by the following individuals:
 
 
 * **Trần Công Khánh (NCK)** — Project Coordinator & Flex Developer
-> 🌐 Contact: [GitHub: *TranKhanh20*](https://github.com/TranKhanh206) / [Email: *trancongkhanh2006.tn@gmail.com*](mailto:trancongkhanh2006.tn@gmail.com)
+> 🌐 Contact: [GitHub: *TranKhanh206*](https://github.com/TranKhanh206) / [Email: *trancongkhanh2006.tn@gmail.com*](mailto:trancongkhanh2006.tn@gmail.com)
 
 
 * **Nguyễn Bá Nam (xepNam)** — Project Manager & Documentation
