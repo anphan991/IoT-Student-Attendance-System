@@ -134,7 +134,7 @@ This project is a collaborative effort by the following individuals:
 > 🌐 Contact: [GitHub: *TranKhanh20*](https://github.com/TranKhanh206) / [Email: *trancongkhanh2006.tn@gmail.com*](mailto:trancongkhanh2006.tn@gmail.com)
 
 
-* **Nguyễn Bá Nam (sepNAM)** — Project Manager & Documentation
+* **Nguyễn Bá Nam (xepNam)** — Project Manager & Documentation
 > 🌐 Contact: [GitHub: *nguyenbanam272-cyber*](https://github.com/nguyenbanam272-cyber) / [Email: *nguyenbanam272@gmail.com*](mailto:nguyenbanam272@gmail.com)
 
 
