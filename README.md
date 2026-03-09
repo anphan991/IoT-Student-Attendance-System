@@ -134,11 +134,11 @@ This project is a collaborative effort by the following individuals:
 > 🌐 Contact: [GitHub: *TranKhanh206*](https://github.com/TranKhanh206) / [Email: *trancongkhanh2006.tn@gmail.com*](mailto:trancongkhanh2006.tn@gmail.com)
 
 
-* **Nguyễn Bá Nam (xepNam)** — Project Manager & Documentation
+* **Nguyễn Bá Nam (xepNam)** — Project Manager & Documentation & Product demo presenter
 > 🌐 Contact: [GitHub: *nguyenbanam272-cyber*](https://github.com/nguyenbanam272-cyber) / [Email: *nguyenbanam272@gmail.com*](mailto:nguyenbanam272@gmail.com)
 
 
-* **Phan Khánh An (ap991)** — Firmware & Frontend
+* **Phan Khánh An (ap991)** — Firmware & Frontend & & Product demo presenter
 > 🌐 Contact: [GitHub: *anphan991*](https://github.com/anphan991) / [Email: *an0915129080@gmail.com*](mailto:an0915129080@gmail.com)
 
 
@@ -146,10 +146,7 @@ This project is a collaborative effort by the following individuals:
 ---
 
 ## 🚀 Upcoming Updates (Coming Soon)
-* **Update Docs**
-* **Real-time WebSockets:** To provide instant dashboard updates without refreshing.
-* **Security Hardening:** Implementing advanced encryption for RFID data transmission.
-* **Mobile Companion App:** A dedicated application for students to check their own attendance history.
+...
 
 ---
 
